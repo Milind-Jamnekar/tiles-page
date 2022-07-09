@@ -85,3 +85,267 @@ body {
   display: flex;
   gap: 30px;
 }
+
+/****** hero section  ******/
+
+.section-hero {
+  background-color: white;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.hero {
+  max-width: 82.1rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.8rem;
+}
+
+.left {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.hero-img {
+  width: 100%;
+  flex-grow: 1;
+}
+
+.images {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.title {
+  font-size: 48px;
+  font-family: "Myriad Pro", sans-serif;
+  font-weight: 700;
+  color: #2f435a;
+  line-height: 24px;
+}
+
+.subtitle {
+  font-weight: 18px;
+  font-weight: 700;
+  margin-top: 8px;
+}
+
+.price {
+  font-size: 34px;
+  font-weight: 700;
+  color: #ad184f;
+  margin-top: 15px;
+  display: block;
+}
+
+.dimension {
+  font-weight: 700;
+  display: block;
+  font-size: 18px;
+  font-family: "Myriad Pro", sans-serif;
+  margin-top: 30px;
+}
+
+.tiles {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-top: 12px;
+}
+
+.tile {
+  width: 100%;
+  height: 99px;
+  border: 1px solid #d5d5d5;
+}
+
+.tile:not(:first-child) {
+  border-left: none;
+}
+
+.info {
+  width: 100%;
+  padding: 15px 21px;
+  background: #2f435b;
+  color: #fff;
+  margin-top: 37px;
+}
+
+.est-time {
+  font-weight: bold;
+  font-size: 17px;
+  margin-top: 37px;
+  color: #2f435b;
+  display: flex;
+}
+
+.est {
+  color: #ad184f;
+}
+
+.condition {
+  margin-top: 20px;
+  font-size: 17px;
+  text-decoration: underline;
+  color: #363636;
+}
+
+.customize {
+  margin-top: 58px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.customize p:first-child {
+  font-weight: 700;
+  color: #767676;
+}
+
+.customize p:last-child {
+  color: #808080;
+}
+
+.cust-btn {
+  color: black;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid #d5d5d5;
+}
+
+.increase {
+  background: #d5d5d5;
+  color: #595959;
+}
+
+.decrease {
+  background-color: #2f435a;
+  color: white;
+}
+
+.cust-btn span {
+  display: inline-block;
+  width: 110px;
+  text-align: center;
+}
+
+.cust-btn button {
+  border: none;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.description {
+  margin-top: 51px;
+}
+
+.desc-title {
+  width: 40%;
+  height: 24px;
+  background: #2f435b;
+  position: relative;
+  color: white;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.desc-title:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-top: 24px solid white;
+  border-left: 24px solid #2f435b;
+  width: 0;
+}
+
+.desc-box {
+  width: 100%;
+  border: 1px solid #2f435b;
+  padding: 18px 0px 15px;
+}
+
+.desc-box p {
+  font-size: 13px;
+  margin-bottom: 16px;
+}
+
+.desc-box span {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.desc-price {
+  display: flex;
+  gap: 1rem;
+}
+
+.cta-btns {
+  margin-top: 26px;
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  /* width: 253px; */
+  /* width: 30%; */
+  padding: 27px 23px;
+  font-size: 12px;
+  line-height: 24px;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-transform: uppercase;
+}
+
+.secondary-btn {
+  background-color: white;
+  color: #ad184f;
+  border: 1px solid #ad184f;
+  font-weight: 700;
+}
+
+.primary-btn {
+  background-color: #ad184f;
+  color: white;
+  border: 1px solid #ad184f;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+/* Responsive css for hero section  */
+@media screen and (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .right {
+    padding: 0 10px 10px;
+  }
+
+  .btn {
+    padding: 20px 20px;
+  }
+}
