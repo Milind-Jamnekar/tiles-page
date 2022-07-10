@@ -364,3 +364,74 @@ body {
     padding: 20px 20px;
   }
 }
+
+/***** Feature section style  *****/
+.section-feature {
+  background-color: #2f435b;
+  padding: 4.8rem 0 9.6rem 0;
+}
+
+.feature {
+  max-width: 82.1rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  color: white;
+  fill: white;
+}
+
+.feature-title {
+  font-size: 50px;
+  font-family: "Myriad Pro";
+  text-align: center;
+}
+
+.feature-list {
+  margin-top: 5.75rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5.5rem;
+}
+
+.feature-list div {
+  text-align: center;
+}
+
+.feature-list h3 {
+  margin-top: 26px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.feature-list p {
+  margin-top: 14px;
+  color: #92aecf;
+  font-size: 16px;
+  line-height: 23px;
+}
+
+@media screen and (max-width: 807px) {
+  .feature {
+    padding: 0 2.2rem;
+  }
+  .feature-list {
+    gap: 2.5rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .feature {
+    padding: 0 1.2rem;
+  }
+
+  .feature-list {
+    margin-top: 3.75rem;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .feature-list {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+}
