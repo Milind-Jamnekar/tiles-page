@@ -12,7 +12,6 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
-  overflow-x: hidden;
 }
 
 .container {
@@ -32,6 +31,7 @@ body {
   padding: 1.6rem 0;
   gap: 1rem;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .logo {
@@ -126,6 +126,7 @@ body {
   display: flex;
   margin-top: 1rem;
   gap: 1rem;
+  overflow: auto;
 }
 
 .images img {
@@ -169,6 +170,7 @@ body {
   display: flex;
   flex-wrap: nowrap;
   margin-top: 12px;
+  overflow: auto;
 }
 
 .tile {
