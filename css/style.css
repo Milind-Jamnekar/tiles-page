@@ -111,7 +111,6 @@ body {
 
 .left {
   display: flex;
-
   flex-direction: column;
 }
 
@@ -314,8 +313,6 @@ body {
 }
 
 .btn {
-  /* width: 253px; */
-  /* width: 30%; */
   padding: 27px 23px;
   font-size: 12px;
   line-height: 24px;
