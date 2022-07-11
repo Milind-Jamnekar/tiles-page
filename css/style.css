@@ -501,11 +501,6 @@ body {
   width: 100%;
 }
 
-.similar-list div:hover {
-  /* max-width: 305px; */
-  /* max-height: 305px; */
-}
-
 .similar-list img {
   width: 100%;
   height: 100%;
